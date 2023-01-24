@@ -1,0 +1,1 @@
+#### The evolution in the trend of users in the production of waste that is potentially used and separated at the source from households, industry, and commerce, is a variable to be taken into account to know the behavior of public sanitation service subscribers and the impacts of the measure. The following graph shows the tons effectively used per capita from 2016 to 2021.

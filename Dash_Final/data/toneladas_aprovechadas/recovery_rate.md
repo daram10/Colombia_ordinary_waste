@@ -1,0 +1,1 @@
+A relevant measure in waste management policies is the percentage recovered of the total amount of waste production in an area, this is called the “waste recovery rate”. In the figure below, the users could interact with the estimation aggregate by departments and review the historic information since april 2016 until december 2021. 

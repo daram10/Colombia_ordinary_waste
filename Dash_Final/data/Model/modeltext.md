@@ -1,0 +1,3 @@
+**Model description:** we were interested in evaluating the relationship between the lifespans of sanitary landfills and the recovery rate of the municipalities in which they are located. We decided to implement k-means clustering to describe the landfills according to these two characteristics.
+We found three main clusters. The first one describes sanitary landfills located in municipalities with low recovery rates and low lifespans (blue); the second one with sanitary landfills that have low recovery rates but medium lifespans (red); and finally sanitary landfills with medium recovery rates but low lifespans (green). 
+Feel free to hover your pointer to find out where your sanitary landfill lands!

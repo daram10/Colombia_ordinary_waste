@@ -1,0 +1,2794 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7c16b8783000eb6647b2faa228340175 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7c16b8783000eb6647b2faa228340175" ></div>
+        
+</body>
+<script>    
+    
+            var map_7c16b8783000eb6647b2faa228340175 = L.map(
+                "map_7c16b8783000eb6647b2faa228340175",
+                {
+                    center: [4.624335, -74.063644],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5.25,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_669e83bc53c817aace240ee4ceb2bd49 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            var circle_80180d14450414a0b6cffdc837155735 = L.circle(
+                [4.6455556, -74.2858333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 20.2808375}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_80180d14450414a0b6cffdc837155735.bindTooltip(
+                `<div>
+                     <i>Province: CUNDINAMARCA<br>
+        <i>Municipality: BOJACA<br>
+        <i>Landfill name: RELLENO SANITARIO NUEVO MONDOÑEDO<br>
+        <i>Waste disposal: 811233.50 Tons<br>
+        <i>Landfill capacity: 88.58%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b8756616d44d48bfe757fd8314d53b72 = L.circle(
+                [1.8726446, -76.1231768],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 1.7174552500000002}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_b8756616d44d48bfe757fd8314d53b72.bindTooltip(
+                `<div>
+                     <i>Province: HUILA<br>
+        <i>Municipality: PITALITO<br>
+        <i>Landfill name: Planta de tramiento de Residuos Solidos<br>
+        <i>Waste disposal: 68698.21 Tons<br>
+        <i>Landfill capacity: 72.29%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_938633d1d3f134522d7134777d7a6a93 = L.circle(
+                [2.5946, -75.135422],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 5.262347}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_938633d1d3f134522d7134777d7a6a93.bindTooltip(
+                `<div>
+                     <i>Province: HUILA<br>
+        <i>Municipality: YAGUARA<br>
+        <i>Landfill name: RELLENO SANITARIO LOS ANGELES<br>
+        <i>Waste disposal: 210493.88 Tons<br>
+        <i>Landfill capacity: 93.33%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_67d671e2a046fa14ea99ffceb121b4d6 = L.circle(
+                [-2.322336, -72.360026],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.701322}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_67d671e2a046fa14ea99ffceb121b4d6.bindTooltip(
+                `<div>
+                     <i>Province: GUAVIARE<br>
+        <i>Municipality: SAN JOSE DEL GUAVIARE<br>
+        <i>Landfill name: EL ALGARROBO<br>
+        <i>Waste disposal: 28052.88 Tons<br>
+        <i>Landfill capacity: 91.06%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7a20b8e1d37c2e0063b6ddcc64bd8aee = L.circle(
+                [13.0203446, -67.0],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0231775}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_7a20b8e1d37c2e0063b6ddcc64bd8aee.bindTooltip(
+                `<div>
+                     <i>Province: GUAVIARE<br>
+        <i>Municipality: CALAMAR<br>
+        <i>Landfill name: RELLENO SANITARIO EL DIAMANTE<br>
+        <i>Waste disposal: 927.10 Tons<br>
+        <i>Landfill capacity: 98.14%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6ea4f527ea1bfb8bacbbae0bca2980d7 = L.circle(
+                [6.060101, -75.191048],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.4276755}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_6ea4f527ea1bfb8bacbbae0bca2980d7.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: EL CARMEN DE VIBORAL<br>
+        <i>Landfill name: EL CARMEN DE VIBORAL<br>
+        <i>Waste disposal: 17107.02 Tons<br>
+        <i>Landfill capacity: -22967.72%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c04c8b1b46e2ccb473e15d05103f9dd4 = L.circle(
+                [7.0, -76.0],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0007}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_c04c8b1b46e2ccb473e15d05103f9dd4.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: ALEJANDRIA<br>
+        <i>Landfill name: MUNICIPIO ALEJANDRIA<br>
+        <i>Waste disposal: 28.00 Tons<br>
+        <i>Landfill capacity: 99.77%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7e0b41a698ef42b4b2953f9c9c1496c8 = L.circle(
+                [5.4804157, -75.2547711],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.08668524999999999}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_7e0b41a698ef42b4b2953f9c9c1496c8.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: ABEJORRAL<br>
+        <i>Landfill name: LOS MOLINOS<br>
+        <i>Waste disposal: 3467.41 Tons<br>
+        <i>Landfill capacity: 89.66%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_122c0065098b5c2410d46106ffd1ae3a = L.circle(
+                [6.141228, -75.274738],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.49177475000000004}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_122c0065098b5c2410d46106ffd1ae3a.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: EL SANTUARIO<br>
+        <i>Landfill name: GRANJA PARA EL MANEJO INTEGRAL DE RESIDUOS SOLIDOS<br>
+        <i>Waste disposal: 19670.99 Tons<br>
+        <i>Landfill capacity: 87.01%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1462eaf32e30a48ad87261799b8b6d14 = L.circle(
+                [1.182217, -75.3379834],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.536375}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_1462eaf32e30a48ad87261799b8b6d14.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: MARINILLA<br>
+        <i>Landfill name: RELLENO SANITARIO Y GRANJA AMBIENTAL LOS SALTOS<br>
+        <i>Waste disposal: 21455.00 Tons<br>
+        <i>Landfill capacity: 98.19%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e51324dd2e35d76e65376db52080fdbe = L.circle(
+                [6.032601, -67.0],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0379625}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_e51324dd2e35d76e65376db52080fdbe.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: COCORNA<br>
+        <i>Landfill name: RELLENO SANITARIO DE COCORNA<br>
+        <i>Waste disposal: 1518.50 Tons<br>
+        <i>Landfill capacity: 99.72%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b658073b0e6a34006614ba030f8e5512 = L.circle(
+                [6.194998, -74.955955],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.029352499999999997}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_b658073b0e6a34006614ba030f8e5512.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: SAN CARLOS<br>
+        <i>Landfill name: EL CAIMO<br>
+        <i>Waste disposal: 1174.10 Tons<br>
+        <i>Landfill capacity: -563.70%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8dd1dcaa6c0e48f23515044793d0ce1f = L.circle(
+                [5.71312, -75.35195],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 7.9070775}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_8dd1dcaa6c0e48f23515044793d0ce1f.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: SONSON<br>
+        <i>Landfill name: AMBIENTE SONSON<br>
+        <i>Waste disposal: 316283.10 Tons<br>
+        <i>Landfill capacity: -75.81%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bc14cff81aaeb80fdc25c09dd4b1603a = L.circle(
+                [4.330583, -74.857204],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0005625}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_bc14cff81aaeb80fdc25c09dd4b1603a.bindTooltip(
+                `<div>
+                     <i>Province: CUNDINAMARCA<br>
+        <i>Municipality: GIRARDOT<br>
+        <i>Landfill name: RELLENO SANITARIO PARQUE ECOLOGICO PRADERAS DEL MAGDALENA<br>
+        <i>Waste disposal: 22.50 Tons<br>
+        <i>Landfill capacity: 100.00%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9915fd324f0ae12d93280c46d2dea291 = L.circle(
+                [7.04554, -73.08467],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 18.21486925}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_9915fd324f0ae12d93280c46d2dea291.bindTooltip(
+                `<div>
+                     <i>Province: SANTANDER<br>
+        <i>Municipality: BUCARAMANGA<br>
+        <i>Landfill name: EL CARRASCO<br>
+        <i>Waste disposal: 728594.77 Tons<br>
+        <i>Landfill capacity: 24.62%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7a7bca31772afe483ab9c82393edaa07 = L.circle(
+                [10.4853333, -74.7840333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.112028}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_7a7bca31772afe483ab9c82393edaa07.bindTooltip(
+                `<div>
+                     <i>Province: MAGDALENA<br>
+        <i>Municipality: SALAMINA<br>
+        <i>Landfill name: RELLENO SANITARIO CIENAGA GRANDE DE SANTAMARTA<br>
+        <i>Waste disposal: 4481.12 Tons<br>
+        <i>Landfill capacity: -580.01%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_82b69c061f8f1ac156181b3d0da0773f = L.circle(
+                [4.853, -75.7978],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 10.976613}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_82b69c061f8f1ac156181b3d0da0773f.bindTooltip(
+                `<div>
+                     <i>Province: RISARALDA<br>
+        <i>Municipality: PEREIRA<br>
+        <i>Landfill name: LA GLORITA<br>
+        <i>Waste disposal: 439064.52 Tons<br>
+        <i>Landfill capacity: 85.97%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_50b84ea5b3a0e1c850d75f9648f9bbbf = L.circle(
+                [5.850722, -76.14275],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.02107}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_50b84ea5b3a0e1c850d75f9648f9bbbf.bindTooltip(
+                `<div>
+                     <i>Province: CHOCO<br>
+        <i>Municipality: EL CARMEN DE ATRATO<br>
+        <i>Landfill name: LA ARBOLEDA<br>
+        <i>Waste disposal: 842.80 Tons<br>
+        <i>Landfill capacity: 99.65%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_246edf77bf59ae3698b4c32fb109c20a = L.circle(
+                [-0.32131, -76.292963],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.5730475}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_246edf77bf59ae3698b4c32fb109c20a.bindTooltip(
+                `<div>
+                     <i>Province: PUTUMAYO<br>
+        <i>Municipality: PUERTO ASIS<br>
+        <i>Landfill name: KILILI<br>
+        <i>Waste disposal: 22921.90 Tons<br>
+        <i>Landfill capacity: -274.54%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b986c4cda46cbff60629bec34d5ec870 = L.circle(
+                [1.323034, -75.36394],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.095582}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_b986c4cda46cbff60629bec34d5ec870.bindTooltip(
+                `<div>
+                     <i>Province: CAQUETA<br>
+        <i>Municipality: FLORENCIA<br>
+        <i>Landfill name: REGIONAL LA ESPERANZA<br>
+        <i>Waste disposal: 3823.28 Tons<br>
+        <i>Landfill capacity: 99.81%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_dd3b9d81354a32412eb3b3b9782128ff = L.circle(
+                [1.2801667, -75.9661111],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.045376}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_dd3b9d81354a32412eb3b3b9782128ff.bindTooltip(
+                `<div>
+                     <i>Province: CAQUETA<br>
+        <i>Municipality: SAN JOSE DEL FRAGUA<br>
+        <i>Landfill name: EL CAIRO<br>
+        <i>Waste disposal: 1815.04 Tons<br>
+        <i>Landfill capacity: 96.24%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_990b94da2c22f67c944246d2b1259175 = L.circle(
+                [1.2808333, -75.9661111],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.045376}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_990b94da2c22f67c944246d2b1259175.bindTooltip(
+                `<div>
+                     <i>Province: CAQUETA<br>
+        <i>Municipality: SAN JOSE DEL FRAGUA<br>
+        <i>Landfill name: EL CAIRO<br>
+        <i>Waste disposal: 1815.04 Tons<br>
+        <i>Landfill capacity: 96.24%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8666d74464e294ae33cf1380615f0707 = L.circle(
+                [-3.9999999, -69.99308],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.065062}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_8666d74464e294ae33cf1380615f0707.bindTooltip(
+                `<div>
+                     <i>Province: AMAZONAS<br>
+        <i>Municipality: LETICIA<br>
+        <i>Landfill name: RELLENO SANITARIO LETICIA<br>
+        <i>Waste disposal: 2602.48 Tons<br>
+        <i>Landfill capacity: 76.36%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_616658ab62235965cedfa83fb9789a33 = L.circle(
+                [-0.6920789, -76.593225],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 10.008091}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_616658ab62235965cedfa83fb9789a33.bindTooltip(
+                `<div>
+                     <i>Province: PUTUMAYO<br>
+        <i>Municipality: PUERTO CAICEDO<br>
+        <i>Landfill name: LA ESMERALDA<br>
+        <i>Waste disposal: 400323.64 Tons<br>
+        <i>Landfill capacity: -17343.30%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f8b0f113345e8bf55079681583455801 = L.circle(
+                [1.1038698, -76.3800284],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.52123025}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_f8b0f113345e8bf55079681583455801.bindTooltip(
+                `<div>
+                     <i>Province: PUTUMAYO<br>
+        <i>Municipality: MOCOA<br>
+        <i>Landfill name: RELLENO SANITARIO VEREDA MEDIO AFAN<br>
+        <i>Waste disposal: 20849.21 Tons<br>
+        <i>Landfill capacity: 96.83%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8cc27b4f73f8ec24b7430aaab6cae098 = L.circle(
+                [2.0748611, -74.8425],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.18202725}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_8cc27b4f73f8ec24b7430aaab6cae098.bindTooltip(
+                `<div>
+                     <i>Province: CAQUETA<br>
+        <i>Municipality: SAN VICENTE DEL CAGUAN<br>
+        <i>Landfill name: RELLENO SANITARIO YOTUEL<br>
+        <i>Waste disposal: 7281.09 Tons<br>
+        <i>Landfill capacity: 95.45%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_390c431b09ef7a97d6f768de02425d37 = L.circle(
+                [1.544917, -75.6077561],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 1.64649925}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_390c431b09ef7a97d6f768de02425d37.bindTooltip(
+                `<div>
+                     <i>Province: CAQUETA<br>
+        <i>Municipality: FLORENCIA<br>
+        <i>Landfill name: PARQUE AMBIENTAL TAYARU<br>
+        <i>Waste disposal: 65859.97 Tons<br>
+        <i>Landfill capacity: -4142.18%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a8fe6311e6ab0d236e7c6895dd91b1fc = L.circle(
+                [12.5527806, -81.7264167],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 1.1342415000000001}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_a8fe6311e6ab0d236e7c6895dd91b1fc.bindTooltip(
+                `<div>
+                     <i>Province: ARCHIPIELAGO DE SAN ANDRES, PROVIDENCIA Y SANTA CATALINA<br>
+        <i>Municipality: SAN ANDRES<br>
+        <i>Landfill name: MAGIC GARDEN<br>
+        <i>Waste disposal: 45369.66 Tons<br>
+        <i>Landfill capacity: 20.82%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_469ef5991c148fbecb63c81c50b0f562 = L.circle(
+                [6.516271, -75.255035],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 56.5153}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_469ef5991c148fbecb63c81c50b0f562.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: DONMATIAS<br>
+        <i>Landfill name: RELLENO SANITARIO LA PRADERA<br>
+        <i>Waste disposal: 2260612.00 Tons<br>
+        <i>Landfill capacity: 83.20%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9917eead38d27e3e160379f686d601b9 = L.circle(
+                [6.58372, -75.174259],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.006697}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_9917eead38d27e3e160379f686d601b9.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: CAMPAMENTO<br>
+        <i>Landfill name: relleno sanitario municipal los ranchos <br>
+        <i>Waste disposal: 267.88 Tons<br>
+        <i>Landfill capacity: -1813.43%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d1475d6ca327d660c72f1e84de1b081d = L.circle(
+                [13.757147, -66.858301],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0311475}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_d1475d6ca327d660c72f1e84de1b081d.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: SAN JOSE DE LA MONTANA<br>
+        <i>Landfill name: LOS ROBLES<br>
+        <i>Waste disposal: 1245.90 Tons<br>
+        <i>Landfill capacity: 97.51%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8470c479a0be45972e11f2ff5bb0e8ac = L.circle(
+                [6.590257, -75.6905587],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0062575}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_8470c479a0be45972e11f2ff5bb0e8ac.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: BELMIRA<br>
+        <i>Landfill name: RELLENO SANITARIO<br>
+        <i>Waste disposal: 250.30 Tons<br>
+        <i>Landfill capacity: 99.87%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b0a799f63ab74471ce5e26246f11712f = L.circle(
+                [6.55023, -74.459658],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.2724955}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_b0a799f63ab74471ce5e26246f11712f.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: PUERTO BERRIO<br>
+        <i>Landfill name: LA TABACA<br>
+        <i>Waste disposal: 10899.82 Tons<br>
+        <i>Landfill capacity: 96.86%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bf2a762cf1034eac85cc359124fc70cb = L.circle(
+                [6.5653, -75.52],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.01856}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_bf2a762cf1034eac85cc359124fc70cb.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: ENTRERRIOS<br>
+        <i>Landfill name: RELLENO SANITARIO ENTRERRIOS<br>
+        <i>Waste disposal: 742.40 Tons<br>
+        <i>Landfill capacity: 95.96%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_31c9e299236c4590706f95dd2d62116f = L.circle(
+                [6.1033056, -75.7196389],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0222625}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_31c9e299236c4590706f95dd2d62116f.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: ANGELOPOLIS<br>
+        <i>Landfill name: RELLENO SANITARIO DEL MUNICIPIO DE ANGELOPOLIS<br>
+        <i>Waste disposal: 890.50 Tons<br>
+        <i>Landfill capacity: 87.63%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_df4cd6dfbf66a6a1478709e51602ae91 = L.circle(
+                [7.081, -74.713],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.558071}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_df4cd6dfbf66a6a1478709e51602ae91.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: SEGOVIA<br>
+        <i>Landfill name: LA VERA<br>
+        <i>Waste disposal: 22322.84 Tons<br>
+        <i>Landfill capacity: 77.29%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_df131613bfad1a44b43337f2eff75ac2 = L.circle(
+                [6.683282, -74.856572],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0627245}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_df131613bfad1a44b43337f2eff75ac2.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: YALI<br>
+        <i>Landfill name: LA AURORA<br>
+        <i>Waste disposal: 2508.98 Tons<br>
+        <i>Landfill capacity: 93.04%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0c58918e02ac2b54884e44cf916958e0 = L.circle(
+                [6.8852778, -75.3352778],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.005029}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_0c58918e02ac2b54884e44cf916958e0.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: ANGOSTURA<br>
+        <i>Landfill name: BUENAVISTA III<br>
+        <i>Waste disposal: 201.16 Tons<br>
+        <i>Landfill capacity: 99.87%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_88c7a4dbd8a9041da7ec5e07ea0077b2 = L.circle(
+                [6.5844363, -74.8178783],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.040372500000000006}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_88c7a4dbd8a9041da7ec5e07ea0077b2.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: MACEO<br>
+        <i>Landfill name: TINAJAS<br>
+        <i>Waste disposal: 1614.90 Tons<br>
+        <i>Landfill capacity: -1565.02%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_10576f9c3a4a32818aed734cb4abe858 = L.circle(
+                [5.556118, -75.636514],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.00860425}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_10576f9c3a4a32818aed734cb4abe858.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: CARAMANTA<br>
+        <i>Landfill name: RELLENO SANITARIO EL JARDIN<br>
+        <i>Waste disposal: 344.17 Tons<br>
+        <i>Landfill capacity: 99.98%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bd07fb8136cd2d03196d72404fbeae51 = L.circle(
+                [5.68745, -75.88965],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.23739325}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_bd07fb8136cd2d03196d72404fbeae51.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: ANDES<br>
+        <i>Landfill name: ALTO DEL RAYO<br>
+        <i>Waste disposal: 9495.73 Tons<br>
+        <i>Landfill capacity: 76.72%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f8488cb2ede02ae34c6649633ff0be7e = L.circle(
+                [5.0803556, -75.508925],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 10.008091}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_f8488cb2ede02ae34c6649633ff0be7e.bindTooltip(
+                `<div>
+                     <i>Province: CALDAS<br>
+        <i>Municipality: MANIZALES<br>
+        <i>Landfill name: LA ESMERALDA<br>
+        <i>Waste disposal: 400323.64 Tons<br>
+        <i>Landfill capacity: 83.92%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_625bd8c55c3651241e4aa036cadfcfd1 = L.circle(
+                [5.56, -74.7],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2.6831115000000003}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_625bd8c55c3651241e4aa036cadfcfd1.bindTooltip(
+                `<div>
+                     <i>Province: CALDAS<br>
+        <i>Municipality: LA DORADA<br>
+        <i>Landfill name: LA DORADITA<br>
+        <i>Waste disposal: 107324.46 Tons<br>
+        <i>Landfill capacity: 82.55%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_283b02fc96a00ecaa620c746c93f7c1c = L.circle(
+                [6.0, -75.0],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.10061525}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_283b02fc96a00ecaa620c746c93f7c1c.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: CALDAS<br>
+        <i>Landfill name: LOS EUCALIPTOS<br>
+        <i>Waste disposal: 4024.61 Tons<br>
+        <i>Landfill capacity: 89.41%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bed589737ca5b43875b70bdd5e1d6791 = L.circle(
+                [5.56, -74.7],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2.6831115000000003}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_bed589737ca5b43875b70bdd5e1d6791.bindTooltip(
+                `<div>
+                     <i>Province: CALDAS<br>
+        <i>Municipality: LA DORADA<br>
+        <i>Landfill name: LA DORADITA<br>
+        <i>Waste disposal: 107324.46 Tons<br>
+        <i>Landfill capacity: 82.55%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4e7994ebec995e27ca247d7e70549a7f = L.circle(
+                [5.604616, -75.4325417],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.10061525}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_4e7994ebec995e27ca247d7e70549a7f.bindTooltip(
+                `<div>
+                     <i>Province: CALDAS<br>
+        <i>Municipality: AGUADAS<br>
+        <i>Landfill name: LOS EUCALIPTOS<br>
+        <i>Waste disposal: 4024.61 Tons<br>
+        <i>Landfill capacity: 79.88%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d0878f543beef6c03aa89f37af90e3d0 = L.circle(
+                [5.291873, -75.077857],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.15229}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_d0878f543beef6c03aa89f37af90e3d0.bindTooltip(
+                `<div>
+                     <i>Province: CALDAS<br>
+        <i>Municipality: MARQUETALIA<br>
+        <i>Landfill name: LA VEGA<br>
+        <i>Waste disposal: 6091.60 Tons<br>
+        <i>Landfill capacity: 97.55%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b5a4906a93b1f2074ffa0ff0e636fe56 = L.circle(
+                [6.555555, -73.133333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.6978810000000001}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_b5a4906a93b1f2074ffa0ff0e636fe56.bindTooltip(
+                `<div>
+                     <i>Province: SANTANDER<br>
+        <i>Municipality: SAN GIL<br>
+        <i>Landfill name: RELLENO SANITARIO EL CUCHARO(ACUASAN)<br>
+        <i>Waste disposal: 27915.24 Tons<br>
+        <i>Landfill capacity: 94.33%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_026b37965291fe183fb891e8ab2ebdcc = L.circle(
+                [6.72454, -72.7294],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.31658125}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_026b37965291fe183fb891e8ab2ebdcc.bindTooltip(
+                `<div>
+                     <i>Province: SANTANDER<br>
+        <i>Municipality: MALAGA<br>
+        <i>Landfill name: PTRSMALAGA<br>
+        <i>Waste disposal: 12663.25 Tons<br>
+        <i>Landfill capacity: 62.35%<br>
+        <i>Category: NORMAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e8bd09b72c0707dbc1c816ebffeb3f01 = L.circle(
+                [6.597411, -72.637558],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.001044}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_e8bd09b72c0707dbc1c816ebffeb3f01.bindTooltip(
+                `<div>
+                     <i>Province: SANTANDER<br>
+        <i>Municipality: SAN MIGUEL<br>
+        <i>Landfill name: MICRORELLENO SANITARIO<br>
+        <i>Waste disposal: 41.76 Tons<br>
+        <i>Landfill capacity: 93.04%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b125f57730447ce139d5fe5246af2d91 = L.circle(
+                [7.0607674, -73.777355],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.03593775}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_b125f57730447ce139d5fe5246af2d91.bindTooltip(
+                `<div>
+                     <i>Province: SANTANDER<br>
+        <i>Municipality: BARRANCABERMEJA<br>
+        <i>Landfill name: YERBABUENA<br>
+        <i>Waste disposal: 1437.51 Tons<br>
+        <i>Landfill capacity: 33.76%<br>
+        <i>Category: NORMAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a1b5ffd5b0295cbcae4e5edaacea0e40 = L.circle(
+                [6.371042, -73.993475],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.06823975}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_a1b5ffd5b0295cbcae4e5edaacea0e40.bindTooltip(
+                `<div>
+                     <i>Province: SANTANDER<br>
+        <i>Municipality: CIMITARRA<br>
+        <i>Landfill name: LA FLORIDA<br>
+        <i>Waste disposal: 2729.59 Tons<br>
+        <i>Landfill capacity: 94.10%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0d0708858ff04ca8d514d3f4bd44abaf = L.circle(
+                [4.127075, -73.4418889],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 10.173214}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_0d0708858ff04ca8d514d3f4bd44abaf.bindTooltip(
+                `<div>
+                     <i>Province: META<br>
+        <i>Municipality: VILLAVICENCIO<br>
+        <i>Landfill name: PARQUE ECOLOGICO RECICLANTE<br>
+        <i>Waste disposal: 406928.56 Tons<br>
+        <i>Landfill capacity: 93.22%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_62db15452374fb512b4a84a28e455259 = L.circle(
+                [5.082453, -73.365046],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.039372000000000004}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_62db15452374fb512b4a84a28e455259.bindTooltip(
+                `<div>
+                     <i>Province: BOYACA<br>
+        <i>Municipality: GARAGOA<br>
+        <i>Landfill name: PLANTA REGIONAL DE RESIDUOS SOLIDOS<br>
+        <i>Waste disposal: 1574.88 Tons<br>
+        <i>Landfill capacity: 85.05%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8dd91d91164c29e01927df6e4b98f13d = L.circle(
+                [7.226644, -72.373888],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.9390940000000001}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_8dd91d91164c29e01927df6e4b98f13d.bindTooltip(
+                `<div>
+                     <i>Province: NORTE DE SANTANDER<br>
+        <i>Municipality: PAMPLONA<br>
+        <i>Landfill name: RELLENOS SANITARIO LA CORTADA<br>
+        <i>Waste disposal: 37563.76 Tons<br>
+        <i>Landfill capacity: 78.23%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9c3ac27938780212ab0ec8cedd184a10 = L.circle(
+                [3.1, -76.15],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.22799850000000002}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_9c3ac27938780212ab0ec8cedd184a10.bindTooltip(
+                `<div>
+                     <i>Province: CAUCA<br>
+        <i>Municipality: CORINTO<br>
+        <i>Landfill name: CELDA TRANSITORIA GRANADITA<br>
+        <i>Waste disposal: 9119.94 Tons<br>
+        <i>Landfill capacity: 62.20%<br>
+        <i>Category: NORMAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2bdb928b3efc8cca28b8c49796b9735c = L.circle(
+                [2.5083178, -76.7511368],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3.6577455000000003}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_2bdb928b3efc8cca28b8c49796b9735c.bindTooltip(
+                `<div>
+                     <i>Province: CAUCA<br>
+        <i>Municipality: POPAYAN<br>
+        <i>Landfill name: RELLENO SANITARIO REGIONAL LOS PICACHOS<br>
+        <i>Waste disposal: 146309.82 Tons<br>
+        <i>Landfill capacity: 94.49%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bc08e25b0d6ad263fc23ad2e14dfe2a7 = L.circle(
+                [2.5083178, -76.7511368],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3.6577455000000003}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_bc08e25b0d6ad263fc23ad2e14dfe2a7.bindTooltip(
+                `<div>
+                     <i>Province: CAUCA<br>
+        <i>Municipality: POPAYAN<br>
+        <i>Landfill name: RELLENO SANITARIO REGIONAL LOS PICACHOS<br>
+        <i>Waste disposal: 146309.82 Tons<br>
+        <i>Landfill capacity: 94.49%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9186310613eb58c0939ce1e3bcd434ba = L.circle(
+                [5.1570778, -72.5705222],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 4.31572175}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_9186310613eb58c0939ce1e3bcd434ba.bindTooltip(
+                `<div>
+                     <i>Province: CASANARE<br>
+        <i>Municipality: AGUAZUL<br>
+        <i>Landfill name: PLANTA DE MANEJO INTEGRAL DE RESIDUOS SOLIDOS DE AGUAZUL<br>
+        <i>Waste disposal: 172628.87 Tons<br>
+        <i>Landfill capacity: -161024.58%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_55bf9989191320e9247c8dcc4138593f = L.circle(
+                [7.0275917, -71.428483],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.05777525000000001}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_55bf9989191320e9247c8dcc4138593f.bindTooltip(
+                `<div>
+                     <i>Province: ARAUCA<br>
+        <i>Municipality: ARAUQUITA<br>
+        <i>Landfill name: PRADO PARAJE DE LA CEIBA<br>
+        <i>Waste disposal: 2311.01 Tons<br>
+        <i>Landfill capacity: 99.54%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_37a69e9b9b379b7b11f2f545131442e3 = L.circle(
+                [7.1215532, -81.9999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.01783775}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_37a69e9b9b379b7b11f2f545131442e3.bindTooltip(
+                `<div>
+                     <i>Province: CASANARE<br>
+        <i>Municipality: OROCUE<br>
+        <i>Landfill name: RELLENO SANITARIO EL BOGANTE<br>
+        <i>Waste disposal: 713.51 Tons<br>
+        <i>Landfill capacity: 46.07%<br>
+        <i>Category: NORMAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b37d3d629c9dc479f0a2c01d1dc27330 = L.circle(
+                [6.1708, -71.0908],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.00101475}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_b37d3d629c9dc479f0a2c01d1dc27330.bindTooltip(
+                `<div>
+                     <i>Province: ARAUCA<br>
+        <i>Municipality: PUERTO RONDON<br>
+        <i>Landfill name: RELLENO SANITARIO PUERTO RONDON<br>
+        <i>Waste disposal: 40.59 Tons<br>
+        <i>Landfill capacity: 99.79%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_51bdd0e32e6e08d4d80f8503e7524415 = L.circle(
+                [6.8064444, -76.1180553],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.070306}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_51bdd0e32e6e08d4d80f8503e7524415.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: FRONTINO<br>
+        <i>Landfill name: PARQUE DE APROVECHAMIENTO DE RESIDUOS SOLIDOS LA ESPERANZA<br>
+        <i>Waste disposal: 2812.24 Tons<br>
+        <i>Landfill capacity: -17853.52%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e33f509a663e1104d9dc9dd867ee0d37 = L.circle(
+                [7.836622, -73.944046],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.303141}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_e33f509a663e1104d9dc9dd867ee0d37.bindTooltip(
+                `<div>
+                     <i>Province: BOLIVAR<br>
+        <i>Municipality: SIMITI<br>
+        <i>Landfill name: RELLENO SANITARIO REGIONAL DEL SUR DE BOLIVAR<br>
+        <i>Waste disposal: 12125.64 Tons<br>
+        <i>Landfill capacity: 35.52%<br>
+        <i>Category: NORMAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5ce9aebb699613d89574edfd7010d7fd = L.circle(
+                [4.3546322, -74.0439028],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.042845999999999995}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_5ce9aebb699613d89574edfd7010d7fd.bindTooltip(
+                `<div>
+                     <i>Province: TOLIMA<br>
+        <i>Municipality: NATAGAIMA<br>
+        <i>Landfill name: RELLENO SANITARIO PACANDE<br>
+        <i>Waste disposal: 1713.84 Tons<br>
+        <i>Landfill capacity: -3178.13%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_023ee7ebd46cc42a3930718b444cee40 = L.circle(
+                [4.0, -75.9999999],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.22566325}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_023ee7ebd46cc42a3930718b444cee40.bindTooltip(
+                `<div>
+                     <i>Province: TOLIMA<br>
+        <i>Municipality: CHAPARRAL<br>
+        <i>Landfill name: LAS TAPIAS<br>
+        <i>Waste disposal: 9026.53 Tons<br>
+        <i>Landfill capacity: 51.35%<br>
+        <i>Category: NORMAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6233127c4f0ab7ba014aabc73c67af04 = L.circle(
+                [4.3622, -75.0685],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 8.84068725}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_6233127c4f0ab7ba014aabc73c67af04.bindTooltip(
+                `<div>
+                     <i>Province: TOLIMA<br>
+        <i>Municipality: IBAGUE<br>
+        <i>Landfill name: LA MIEL<br>
+        <i>Waste disposal: 353627.49 Tons<br>
+        <i>Landfill capacity: 84.53%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2e8665264fd30b8ec44c71fc403eb85e = L.circle(
+                [3.9681262, -76.2517856],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 14.3436315}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_2e8665264fd30b8ec44c71fc403eb85e.bindTooltip(
+                `<div>
+                     <i>Province: VALLE DEL CAUCA<br>
+        <i>Municipality: SAN PEDRO<br>
+        <i>Landfill name: RELLENO SANITARIO REGIONAL PRESIDENTE<br>
+        <i>Waste disposal: 573745.26 Tons<br>
+        <i>Landfill capacity: 84.95%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6368793f4b543394a69bd0cfd8425ed8 = L.circle(
+                [3.8789041, -76.9136794],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.82218125}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_6368793f4b543394a69bd0cfd8425ed8.bindTooltip(
+                `<div>
+                     <i>Province: VALLE DEL CAUCA<br>
+        <i>Municipality: BUENAVENTURA<br>
+        <i>Landfill name: CELDA CORDOBA<br>
+        <i>Waste disposal: 32887.25 Tons<br>
+        <i>Landfill capacity: 88.15%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a238b21fe234e7d4d6bfd4c24ab1bb56 = L.circle(
+                [3.460447, -76.245022],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 33.2394005}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_a238b21fe234e7d4d6bfd4c24ab1bb56.bindTooltip(
+                `<div>
+                     <i>Province: VALLE DEL CAUCA<br>
+        <i>Municipality: YOTOCO<br>
+        <i>Landfill name: RELLENO SANITARIO REGIONAL COLOMBA-EL GUABAL<br>
+        <i>Waste disposal: 1329576.02 Tons<br>
+        <i>Landfill capacity: 93.18%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4dac21d340d31dbd5e23ad6cf4ad3aa0 = L.circle(
+                [1.276926, -77.261054],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 8.14026475}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_4dac21d340d31dbd5e23ad6cf4ad3aa0.bindTooltip(
+                `<div>
+                     <i>Province: NARINO<br>
+        <i>Municipality: SANDONA<br>
+        <i>Landfill name: ANTANAS<br>
+        <i>Waste disposal: 325610.59 Tons<br>
+        <i>Landfill capacity: 91.58%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a15fc5b19c836ffdb80af62989b6a1e9 = L.circle(
+                [1.276895, -77.261274],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 8.14026475}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_a15fc5b19c836ffdb80af62989b6a1e9.bindTooltip(
+                `<div>
+                     <i>Province: NARINO<br>
+        <i>Municipality: PASTO<br>
+        <i>Landfill name: ANTANAS<br>
+        <i>Waste disposal: 325610.59 Tons<br>
+        <i>Landfill capacity: 91.58%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_23ec016aa33eaf0a87e8754c42658ea4 = L.circle(
+                [1.276788, -77.261397],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.008416}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_23ec016aa33eaf0a87e8754c42658ea4.bindTooltip(
+                `<div>
+                     <i>Province: NARINO<br>
+        <i>Municipality: ANCUYA<br>
+        <i>Landfill name: RELLENO SANITARIO ANTANAS<br>
+        <i>Waste disposal: 336.64 Tons<br>
+        <i>Landfill capacity: 99.99%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0f0b202c9958a1636b8197bc22556921 = L.circle(
+                [7.0009876, -74.8976543],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0062575}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_0f0b202c9958a1636b8197bc22556921.bindTooltip(
+                `<div>
+                     <i>Province: NARINO<br>
+        <i>Municipality: BARBACOAS<br>
+        <i>Landfill name: RELLENO SANITARIO<br>
+        <i>Waste disposal: 250.30 Tons<br>
+        <i>Landfill capacity: 99.85%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_857251875adfff6d047d60672be90031 = L.circle(
+                [7.9220705, -75.5452606],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.00299025}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_857251875adfff6d047d60672be90031.bindTooltip(
+                `<div>
+                     <i>Province: CORDOBA<br>
+        <i>Municipality: MONTELIBANO<br>
+        <i>Landfill name: RELLENO SANITARIO CERRO MATOSO<br>
+        <i>Waste disposal: 119.61 Tons<br>
+        <i>Landfill capacity: 98.67%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_83ccdd3a9dffbb5f02aaadc3c3f21a94 = L.circle(
+                [10.934631, -74.924633],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 29.453954749999998}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_83ccdd3a9dffbb5f02aaadc3c3f21a94.bindTooltip(
+                `<div>
+                     <i>Province: ATLANTICO<br>
+        <i>Municipality: GALAPA<br>
+        <i>Landfill name: RELLENO SANITARIO PARQUE AMBIENTAL LOS POCITOS<br>
+        <i>Waste disposal: 1178158.19 Tons<br>
+        <i>Landfill capacity: 94.11%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_298d09506eebe7a572b98f821f49c405 = L.circle(
+                [6.26538, -71.521114],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0672675}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_298d09506eebe7a572b98f821f49c405.bindTooltip(
+                `<div>
+                     <i>Province: ARAUCA<br>
+        <i>Municipality: TAME<br>
+        <i>Landfill name: RELLENO SANITARIO BRISAS DEL CRAVO<br>
+        <i>Waste disposal: 2690.70 Tons<br>
+        <i>Landfill capacity: 99.08%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_46fe940ddde2c93cd4937bf443564409 = L.circle(
+                [6.4290167, -71.8476765],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.307222}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_46fe940ddde2c93cd4937bf443564409.bindTooltip(
+                `<div>
+                     <i>Province: ARAUCA<br>
+        <i>Municipality: TAME<br>
+        <i>Landfill name: SMIRT<br>
+        <i>Waste disposal: 12288.88 Tons<br>
+        <i>Landfill capacity: 70.41%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bcd953107e2be25b5541ab3be9a6e7a2 = L.circle(
+                [6.336055, -76.143861],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.10137675}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_bcd953107e2be25b5541ab3be9a6e7a2.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: URRAO<br>
+        <i>Landfill name: PARQUE AMBIENTAL LAS ORQUIEDAS<br>
+        <i>Waste disposal: 4055.07 Tons<br>
+        <i>Landfill capacity: 94.99%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e368789e789db73365c39c80b974b3d9 = L.circle(
+                [5.7552138, -72.8824674],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2.5292125}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_e368789e789db73365c39c80b974b3d9.bindTooltip(
+                `<div>
+                     <i>Province: BOYACA<br>
+        <i>Municipality: SOGAMOSO<br>
+        <i>Landfill name: RELLENO SANITARIO TERRAZAS DEL PORVENIR<br>
+        <i>Waste disposal: 101168.50 Tons<br>
+        <i>Landfill capacity: 93.33%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fb3fd12db033e84ffd750de3bd7e40b0 = L.circle(
+                [5.6271, -73.731743],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.551567}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_fb3fd12db033e84ffd750de3bd7e40b0.bindTooltip(
+                `<div>
+                     <i>Province: BOYACA<br>
+        <i>Municipality: CHIQUINQUIRA<br>
+        <i>Landfill name: CARAPACHO<br>
+        <i>Waste disposal: 22062.68 Tons<br>
+        <i>Landfill capacity: -29.02%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_10678b5d7f6d6c0024883313bad30f68 = L.circle(
+                [6.304287, -75.8528],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0062045}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_10678b5d7f6d6c0024883313bad30f68.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: ANZA<br>
+        <i>Landfill name: LOS CEDROS<br>
+        <i>Waste disposal: 248.18 Tons<br>
+        <i>Landfill capacity: 96.90%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_90c1c9229856cc75e4d1cecf281cbd10 = L.circle(
+                [8.2577028, -73.3286167],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 1.6643185}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_90c1c9229856cc75e4d1cecf281cbd10.bindTooltip(
+                `<div>
+                     <i>Province: NORTE DE SANTANDER<br>
+        <i>Municipality: OCANA<br>
+        <i>Landfill name: LA MADERA<br>
+        <i>Waste disposal: 66572.74 Tons<br>
+        <i>Landfill capacity: 99.99%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ef8530761b42bfe2b7e8435142f82650 = L.circle(
+                [6.654545, -72.592858],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.000425}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_ef8530761b42bfe2b7e8435142f82650.bindTooltip(
+                `<div>
+                     <i>Province: SANTANDER<br>
+        <i>Municipality: CARCASI<br>
+        <i>Landfill name: VIA AL TOBAL<br>
+        <i>Waste disposal: 17.00 Tons<br>
+        <i>Landfill capacity: 97.17%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_021f3502d7042111f0c077aadce263ea = L.circle(
+                [6.1655, -75.1956],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0541875}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_021f3502d7042111f0c077aadce263ea.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: SAN VICENTE FERRER<br>
+        <i>Landfill name: GRANJA EXPERIMENTAL DE RESIDUOS SOLIDOS<br>
+        <i>Waste disposal: 2167.50 Tons<br>
+        <i>Landfill capacity: 92.07%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_94a6c671415b44c9c3e27ea870887bf7 = L.circle(
+                [6.383, -75.252602],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0091555}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_94a6c671415b44c9c3e27ea870887bf7.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: CONCEPCION<br>
+        <i>Landfill name: RELLENO SANITARIO CERRO DE LA VIRGEN<br>
+        <i>Waste disposal: 366.22 Tons<br>
+        <i>Landfill capacity: 99.02%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_85f0e8d4735c342a6b68a72d2174bfdc = L.circle(
+                [8.706919, -75.8389883],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 9.17727275}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_85f0e8d4735c342a6b68a72d2174bfdc.bindTooltip(
+                `<div>
+                     <i>Province: CORDOBA<br>
+        <i>Municipality: MONTERIA<br>
+        <i>Landfill name: RELLENO SANITARIO LOMA GRANDE<br>
+        <i>Waste disposal: 367090.91 Tons<br>
+        <i>Landfill capacity: 83.14%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b383b7f9de11c109e85eb8b00490a561 = L.circle(
+                [4.4575878, -75.8294081],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 7.197004}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_b383b7f9de11c109e85eb8b00490a561.bindTooltip(
+                `<div>
+                     <i>Province: QUINDIO<br>
+        <i>Municipality: MONTENEGRO<br>
+        <i>Landfill name: RELLENO SANITARIO PARQUE AMBIENTAL ANDALUCIA<br>
+        <i>Waste disposal: 287880.16 Tons<br>
+        <i>Landfill capacity: 81.54%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4ab175a7c13c4efbd481e28b5d0f221d = L.circle(
+                [5.980758, -75.437914],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.52192575}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_4ab175a7c13c4efbd481e28b5d0f221d.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: LA CEJA<br>
+        <i>Landfill name: rancho triste <br>
+        <i>Waste disposal: 20877.03 Tons<br>
+        <i>Landfill capacity: 92.82%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c533b6749fbaa7d45d9d9814a72ab81e = L.circle(
+                [10.80138, -74.8163],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 15.972813250000002}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_c533b6749fbaa7d45d9d9814a72ab81e.bindTooltip(
+                `<div>
+                     <i>Province: ATLANTICO<br>
+        <i>Municipality: PALMAR DE VARELA<br>
+        <i>Landfill name: EL CLAVO<br>
+        <i>Waste disposal: 638912.53 Tons<br>
+        <i>Landfill capacity: 92.90%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_68be949c57165e3fffccf9899d411ad0 = L.circle(
+                [10.859, -72.7845],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 1.8487552500000002}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_68be949c57165e3fffccf9899d411ad0.bindTooltip(
+                `<div>
+                     <i>Province: LA GUAJIRA<br>
+        <i>Municipality: FONSECA<br>
+        <i>Landfill name: REGIONAL SUR DE LA GUAJIRA<br>
+        <i>Waste disposal: 73950.21 Tons<br>
+        <i>Landfill capacity: 95.71%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_85f211b5bfbcb8c9492436e6026cf7ba = L.circle(
+                [11.5441, -72.9069],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2.66797175}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_85f211b5bfbcb8c9492436e6026cf7ba.bindTooltip(
+                `<div>
+                     <i>Province: LA GUAJIRA<br>
+        <i>Municipality: RIOHACHA<br>
+        <i>Landfill name: CELDA DE CONTINGENCIA<br>
+        <i>Waste disposal: 106718.87 Tons<br>
+        <i>Landfill capacity: 28.14%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fbacf7e168496278fb43d75033890f6d = L.circle(
+                [10.3111, -74.0912],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 1.9109785}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_fbacf7e168496278fb43d75033890f6d.bindTooltip(
+                `<div>
+                     <i>Province: MAGDALENA<br>
+        <i>Municipality: ARACATACA<br>
+        <i>Landfill name: REGIONAL ECOSISTEMA SIERRA NEVADA DE SANTA MARTA<br>
+        <i>Waste disposal: 76439.14 Tons<br>
+        <i>Landfill capacity: 95.73%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b632616121952ba550693c89f7d067d7 = L.circle(
+                [5.4141282, -72.2969806],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2.76805025}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_b632616121952ba550693c89f7d067d7.bindTooltip(
+                `<div>
+                     <i>Province: CASANARE<br>
+        <i>Municipality: YOPAL<br>
+        <i>Landfill name: EL CASCAJAR<br>
+        <i>Waste disposal: 110722.01 Tons<br>
+        <i>Landfill capacity: -17480.98%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3c425aa4e18c69baba61f0f872cbdaa5 = L.circle(
+                [5.830509, -72.833814],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.00026875}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_3c425aa4e18c69baba61f0f872cbdaa5.bindTooltip(
+                `<div>
+                     <i>Province: BOYACA<br>
+        <i>Municipality: BUSBANZA<br>
+        <i>Landfill name: CELDA TRANSITORIA NUMA<br>
+        <i>Waste disposal: 10.75 Tons<br>
+        <i>Landfill capacity: 92.93%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7d2daa10305d08befbccbe9458dd8b63 = L.circle(
+                [6.463488, -71.465457],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.02396225}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_7d2daa10305d08befbccbe9458dd8b63.bindTooltip(
+                `<div>
+                     <i>Province: ARAUCA<br>
+        <i>Municipality: FORTUL<br>
+        <i>Landfill name: CELDA SAN PEDRO<br>
+        <i>Waste disposal: 958.49 Tons<br>
+        <i>Landfill capacity: 57.40%<br>
+        <i>Category: NORMAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_808357ed6e9c3e871175f728d4ba1661 = L.circle(
+                [10.546355, -73.243404],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 9.06078875}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_808357ed6e9c3e871175f728d4ba1661.bindTooltip(
+                `<div>
+                     <i>Province: CESAR<br>
+        <i>Municipality: VALLEDUPAR<br>
+        <i>Landfill name: LOS CORAZONES<br>
+        <i>Waste disposal: 362431.55 Tons<br>
+        <i>Landfill capacity: 86.95%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_971494986f5d12d6e833a725e94a4860 = L.circle(
+                [5.8, -76.02],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.144541}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_971494986f5d12d6e833a725e94a4860.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: CIUDAD BOLIVAR<br>
+        <i>Landfill name: CIUDADBOLIVAR<br>
+        <i>Waste disposal: 5781.64 Tons<br>
+        <i>Landfill capacity: 86.39%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4f8a2972afd02b38e7ebc61e055adbba = L.circle(
+                [4.2012, -75.4952],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.10450999999999999}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_4f8a2972afd02b38e7ebc61e055adbba.bindTooltip(
+                `<div>
+                     <i>Province: VALLE DEL CAUCA<br>
+        <i>Municipality: CAICEDONIA<br>
+        <i>Landfill name: EL JAZMIN<br>
+        <i>Waste disposal: 4180.40 Tons<br>
+        <i>Landfill capacity: -19.44%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e795a0d00de75698d0c3407166eeae04 = L.circle(
+                [7.100192, -73.704712],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2.219951}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_e795a0d00de75698d0c3407166eeae04.bindTooltip(
+                `<div>
+                     <i>Province: SANTANDER<br>
+        <i>Municipality: BARRANCABERMEJA<br>
+        <i>Landfill name: RELLENO SANITARIO REDIBA SA ESP<br>
+        <i>Waste disposal: 88798.04 Tons<br>
+        <i>Landfill capacity: 95.91%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4eefce47867c41bdfce0c73ec65290c7 = L.circle(
+                [10.2586913, -75.5093343],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 1.74105725}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_4eefce47867c41bdfce0c73ec65290c7.bindTooltip(
+                `<div>
+                     <i>Province: BOLIVAR<br>
+        <i>Municipality: CARTAGENA DE INDIAS<br>
+        <i>Landfill name: PARQUE AMBIENTAL BIOGER<br>
+        <i>Waste disposal: 69642.29 Tons<br>
+        <i>Landfill capacity: -27756.92%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fa8d1737fd55eaf2d913100f1c485d1e = L.circle(
+                [9.996562, -73.902951],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2.319839}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_fa8d1737fd55eaf2d913100f1c485d1e.bindTooltip(
+                `<div>
+                     <i>Province: CESAR<br>
+        <i>Municipality: BOSCONIA<br>
+        <i>Landfill name: RELLENO REGIONAL NOROCCIDENTE DEL CESAR<br>
+        <i>Waste disposal: 92793.56 Tons<br>
+        <i>Landfill capacity: -230.41%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b71105c1a665eb87c0fdfb081647a092 = L.circle(
+                [1.033778, -75.758611],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.03724575}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_b71105c1a665eb87c0fdfb081647a092.bindTooltip(
+                `<div>
+                     <i>Province: CAQUETA<br>
+        <i>Municipality: CURILLO<br>
+        <i>Landfill name: CHICAO<br>
+        <i>Waste disposal: 1489.83 Tons<br>
+        <i>Landfill capacity: 81.35%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2ed60c55380d73cec24c19292bb42b01 = L.circle(
+                [8.289306, -73.652693],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2.858061}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_2ed60c55380d73cec24c19292bb42b01.bindTooltip(
+                `<div>
+                     <i>Province: CESAR<br>
+        <i>Municipality: AGUACHICA<br>
+        <i>Landfill name: LAS BATEAS<br>
+        <i>Waste disposal: 114322.44 Tons<br>
+        <i>Landfill capacity: 88.51%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_01d8db52706ca7aae0a1d739cc0638b2 = L.circle(
+                [8.021234, -72.502406],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 15.466879500000001}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_01d8db52706ca7aae0a1d739cc0638b2.bindTooltip(
+                `<div>
+                     <i>Province: NORTE DE SANTANDER<br>
+        <i>Municipality: CUCUTA<br>
+        <i>Landfill name: GUAYABAL<br>
+        <i>Waste disposal: 618675.18 Tons<br>
+        <i>Landfill capacity: 94.35%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_30e5d62ef67be6ad1960218b2bca8cef = L.circle(
+                [10.9924081, -74.2064176],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 1.3186345}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_30e5d62ef67be6ad1960218b2bca8cef.bindTooltip(
+                `<div>
+                     <i>Province: MAGDALENA<br>
+        <i>Municipality: CIENAGA<br>
+        <i>Landfill name: LA MARIA<br>
+        <i>Waste disposal: 52745.38 Tons<br>
+        <i>Landfill capacity: 92.23%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_39b5100a27cb078661cf5827b20eac61 = L.circle(
+                [9.309148, -75.266686],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3.3631875}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_39b5100a27cb078661cf5827b20eac61.bindTooltip(
+                `<div>
+                     <i>Province: SUCRE<br>
+        <i>Municipality: COROZAL<br>
+        <i>Landfill name: LA CANDELARIA<br>
+        <i>Waste disposal: 134527.50 Tons<br>
+        <i>Landfill capacity: 94.97%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6de15c21e098e9bff87aa0b0bba1f642 = L.circle(
+                [4.32819, -74.85732],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 6.872241250000001}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_6de15c21e098e9bff87aa0b0bba1f642.bindTooltip(
+                `<div>
+                     <i>Province: CUNDINAMARCA<br>
+        <i>Municipality: GIRARDOT<br>
+        <i>Landfill name: PARQUE ECOLOGICO PRADERAS DEL MAGDALENA<br>
+        <i>Waste disposal: 274889.65 Tons<br>
+        <i>Landfill capacity: 73.45%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4f1ef3b89ccca68cc563af5d899a4bd5 = L.circle(
+                [3.4755556, -73.3261111],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.06574125}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_4f1ef3b89ccca68cc563af5d899a4bd5.bindTooltip(
+                `<div>
+                     <i>Province: META<br>
+        <i>Municipality: LA MACARENA<br>
+        <i>Landfill name: Puerta Roja<br>
+        <i>Waste disposal: 2629.65 Tons<br>
+        <i>Landfill capacity: 26.95%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_225ad19bba4c2dc5f100b341762165d1 = L.circle(
+                [2.9500833, -72.1433611],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.01919575}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_225ad19bba4c2dc5f100b341762165d1.bindTooltip(
+                `<div>
+                     <i>Province: META<br>
+        <i>Municipality: MAPIRIPAN<br>
+        <i>Landfill name: La Mapiripana<br>
+        <i>Waste disposal: 767.83 Tons<br>
+        <i>Landfill capacity: 38.57%<br>
+        <i>Category: NORMAL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f774b19a0e9901ca48554bc80a1d1123 = L.circle(
+                [3.2343056, -74.3343056],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0009375}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_f774b19a0e9901ca48554bc80a1d1123.bindTooltip(
+                `<div>
+                     <i>Province: META<br>
+        <i>Municipality: URIBE<br>
+        <i>Landfill name: VEREDA EL BRASIL<br>
+        <i>Waste disposal: 37.50 Tons<br>
+        <i>Landfill capacity: 97.77%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_03435294ac91f11eb70055e06606da95 = L.circle(
+                [10.2728593, -75.4807963],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 14.6730745}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_03435294ac91f11eb70055e06606da95.bindTooltip(
+                `<div>
+                     <i>Province: BOLIVAR<br>
+        <i>Municipality: TURBANA<br>
+        <i>Landfill name: RELLENO SANITARIO PARQUE AMBIENTAL LOMA DE LOS COCOS<br>
+        <i>Waste disposal: 586922.98 Tons<br>
+        <i>Landfill capacity: 93.16%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_500806e0af2688442c4d2e7800d41b7a = L.circle(
+                [7.0275917, -71.428483],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 2.75e-06}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_500806e0af2688442c4d2e7800d41b7a.bindTooltip(
+                `<div>
+                     <i>Province: ARAUCA<br>
+        <i>Municipality: ARAUQUITA<br>
+        <i>Landfill name: FLORIDA 2<br>
+        <i>Waste disposal: 0.11 Tons<br>
+        <i>Landfill capacity: 100.00%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b27caac3c9c43ce677853cd0f9d48130 = L.circle(
+                [5.5752721, -73.3215609],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 4.08808025}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_b27caac3c9c43ce677853cd0f9d48130.bindTooltip(
+                `<div>
+                     <i>Province: BOYACA<br>
+        <i>Municipality: TUNJA<br>
+        <i>Landfill name: RELLENO SANITARIO PARQUE AMBIENTAL PIRGUA<br>
+        <i>Waste disposal: 163523.21 Tons<br>
+        <i>Landfill capacity: 93.32%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_35a45a836b7071554ca9cc7d4a5309a7 = L.circle(
+                [9.2140011, -74.408827],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0036}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_35a45a836b7071554ca9cc7d4a5309a7.bindTooltip(
+                `<div>
+                     <i>Province: BOLIVAR<br>
+        <i>Municipality: MOMPOS<br>
+        <i>Landfill name: BACA MOMPOX<br>
+        <i>Waste disposal: 144.00 Tons<br>
+        <i>Landfill capacity: 99.81%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0392a51c3f5c72f7af030d000544b60e = L.circle(
+                [7.335899, -75.225699],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.172763}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_0392a51c3f5c72f7af030d000544b60e.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: TARAZA<br>
+        <i>Landfill name: PIEDRAS<br>
+        <i>Waste disposal: 6910.52 Tons<br>
+        <i>Landfill capacity: 74.65%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_947028c7623b72096f2c379c5bc0d9b4 = L.circle(
+                [8.073507, -76.651225],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 4.393176}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_947028c7623b72096f2c379c5bc0d9b4.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: TURBO<br>
+        <i>Landfill name: CENTRO INDUSTRIAL DE RESIDUOS SOLIDOS DE URABA EL TEJAR<br>
+        <i>Waste disposal: 175727.04 Tons<br>
+        <i>Landfill capacity: -544.54%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_06843f220d640ff1d98b2a2eb1e714eb = L.circle(
+                [6.8718333, -73.4323611],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.01392525}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_06843f220d640ff1d98b2a2eb1e714eb.bindTooltip(
+                `<div>
+                     <i>Province: SANTANDER<br>
+        <i>Municipality: SAN VICENTE DE CHUCURI<br>
+        <i>Landfill name: RELLENO SANITARIO SAN VICENTE DE CHUCURI<br>
+        <i>Waste disposal: 557.01 Tons<br>
+        <i>Landfill capacity: 99.14%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_07e31df7e6b74fbb2300f9b4284b252b = L.circle(
+                [6.969999, -75.429999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.15109825000000002}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_07e31df7e6b74fbb2300f9b4284b252b.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: YARUMAL<br>
+        <i>Landfill name: YARUMOS II<br>
+        <i>Waste disposal: 6043.93 Tons<br>
+        <i>Landfill capacity: 89.93%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_66bb2258a8ebd40e3a4098d2a2b51e97 = L.circle(
+                [6.9171667, -75.0661167],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.05467225}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_66bb2258a8ebd40e3a4098d2a2b51e97.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: AMALFI<br>
+        <i>Landfill name: LA ESPAÑOLA<br>
+        <i>Waste disposal: 2186.89 Tons<br>
+        <i>Landfill capacity: 96.05%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_99025baa7b84f207d3a6329ee966e8c0 = L.circle(
+                [4.6155556, -72.9516667],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.36631775}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_99025baa7b84f207d3a6329ee966e8c0.bindTooltip(
+                `<div>
+                     <i>Province: CASANARE<br>
+        <i>Municipality: VILLANUEVA<br>
+        <i>Landfill name: LA ESPERANZA<br>
+        <i>Waste disposal: 14652.71 Tons<br>
+        <i>Landfill capacity: 90.38%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5f73de8f11f65fb37e0a8db916fad4c1 = L.circle(
+                [4.010833, -75.605278],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.006125}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_5f73de8f11f65fb37e0a8db916fad4c1.bindTooltip(
+                `<div>
+                     <i>Province: TOLIMA<br>
+        <i>Municipality: RONCESVALLES<br>
+        <i>Landfill name: CELDA DE DISPOSICION FINAL RONCESVALLES<br>
+        <i>Waste disposal: 245.00 Tons<br>
+        <i>Landfill capacity: 100.00%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8e88f78cb116da81b5a65e121cf5f787 = L.circle(
+                [7.096862, -73.700661],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.378997}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_8e88f78cb116da81b5a65e121cf5f787.bindTooltip(
+                `<div>
+                     <i>Province: SANTANDER<br>
+        <i>Municipality: BARRANCABERMEJA<br>
+        <i>Landfill name: PARQUE TECNOLOGICO AMBIENTAL SAN SILVESTRE<br>
+        <i>Waste disposal: 15159.88 Tons<br>
+        <i>Landfill capacity: 99.30%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c0c7aaf6539f68c10baaf218e6147ab0 = L.circle(
+                [5.330866, -73.432268],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.00263}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_c0c7aaf6539f68c10baaf218e6147ab0.bindTooltip(
+                `<div>
+                     <i>Province: BOYACA<br>
+        <i>Municipality: SAN MIGUEL DE SEMA<br>
+        <i>Landfill name: SITIO DE DISPOSICION FINAL RELLENO SANITARIO<br>
+        <i>Waste disposal: 105.20 Tons<br>
+        <i>Landfill capacity: 96.69%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a53d38db3fd64cecf8f4d2759b6ed2bd = L.circle(
+                [4.3132613, -74.0736392],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 84.44784825}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_a53d38db3fd64cecf8f4d2759b6ed2bd.bindTooltip(
+                `<div>
+                     <i>Province: BOGOTA, D.C.<br>
+        <i>Municipality: BOGOTA, D.C.<br>
+        <i>Landfill name: RELLENO SANITARIO DOÑA JUANA<br>
+        <i>Waste disposal: 3377913.93 Tons<br>
+        <i>Landfill capacity: 80.36%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_21744f6b50e994ff7fae18f42b7ffcb3 = L.circle(
+                [5.12734, -76.678418],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.032375}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_21744f6b50e994ff7fae18f42b7ffcb3.bindTooltip(
+                `<div>
+                     <i>Province: CHOCO<br>
+        <i>Municipality: ISTMINA<br>
+        <i>Landfill name: EL CHONTADURO<br>
+        <i>Waste disposal: 1295.00 Tons<br>
+        <i>Landfill capacity: 97.18%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_013bf943d86ff0fb1fc323c69d3c65a8 = L.circle(
+                [1.38477, -77.34232],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.00943225}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_013bf943d86ff0fb1fc323c69d3c65a8.bindTooltip(
+                `<div>
+                     <i>Province: NARINO<br>
+        <i>Municipality: CUMBITARA<br>
+        <i>Landfill name: RELLENO SANITARIO DE CUMBITARA<br>
+        <i>Waste disposal: 377.29 Tons<br>
+        <i>Landfill capacity: 95.07%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_596d359cef5b2f63700c692ae31f33a8 = L.circle(
+                [5.224897, -73.781638],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0116765}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_596d359cef5b2f63700c692ae31f33a8.bindTooltip(
+                `<div>
+                     <i>Province: CUNDINAMARCA<br>
+        <i>Municipality: CUCUNUBA<br>
+        <i>Landfill name: RELLENO SANITARIO VDA APOSENTOS<br>
+        <i>Waste disposal: 467.06 Tons<br>
+        <i>Landfill capacity: 97.57%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_778a60484f51be28c41e0192b7322214 = L.circle(
+                [6.5538083, -73.1884167],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.78879075}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_778a60484f51be28c41e0192b7322214.bindTooltip(
+                `<div>
+                     <i>Province: SANTANDER<br>
+        <i>Municipality: SAN GIL<br>
+        <i>Landfill name: EL CUCHARO<br>
+        <i>Waste disposal: 31551.63 Tons<br>
+        <i>Landfill capacity: 94.26%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b2130b677c999558628ffdb27bab85c3 = L.circle(
+                [6.331341, -73.11183],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.78879075}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_b2130b677c999558628ffdb27bab85c3.bindTooltip(
+                `<div>
+                     <i>Province: SANTANDER<br>
+        <i>Municipality: SAN GIL<br>
+        <i>Landfill name: EL CUCHARO<br>
+        <i>Waste disposal: 31551.63 Tons<br>
+        <i>Landfill capacity: 94.26%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_58fdaf0442d9e5ec6a3346ea8e3e5c3e = L.circle(
+                [0.699307, -75.2537643],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.021485499999999998}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_58fdaf0442d9e5ec6a3346ea8e3e5c3e.bindTooltip(
+                `<div>
+                     <i>Province: CAQUETA<br>
+        <i>Municipality: SOLANO<br>
+        <i>Landfill name: EL AMARILLO<br>
+        <i>Waste disposal: 859.42 Tons<br>
+        <i>Landfill capacity: 97.14%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f1a2ad840d96a0ee8bd54e575373f0d2 = L.circle(
+                [7.0221944, -75.09135],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.013}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_f1a2ad840d96a0ee8bd54e575373f0d2.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: PEQUE<br>
+        <i>Landfill name: LA GRANJA<br>
+        <i>Waste disposal: 520.00 Tons<br>
+        <i>Landfill capacity: 84.54%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_416fc98b71559250e299c043f6ee4977 = L.circle(
+                [6.969778, -70.86444],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.76398275}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_416fc98b71559250e299c043f6ee4977.bindTooltip(
+                `<div>
+                     <i>Province: ARAUCA<br>
+        <i>Municipality: ARAUCA<br>
+        <i>Landfill name: RELLENO SANITARIO LAS GARZAS<br>
+        <i>Waste disposal: 30559.31 Tons<br>
+        <i>Landfill capacity: 93.95%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_933ba08c6f46c248af7f9bf7c8e6ecf8 = L.circle(
+                [5.5755, -75.6712],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0055745}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_933ba08c6f46c248af7f9bf7c8e6ecf8.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: SAN FRANCISCO<br>
+        <i>Landfill name: EL PAJUI<br>
+        <i>Waste disposal: 222.98 Tons<br>
+        <i>Landfill capacity: -9034.78%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_12f20a37bef92e3ea22aaea01bcbdd56 = L.circle(
+                [2.998554, -75.234749],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 5.262347}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_12f20a37bef92e3ea22aaea01bcbdd56.bindTooltip(
+                `<div>
+                     <i>Province: HUILA<br>
+        <i>Municipality: NEIVA<br>
+        <i>Landfill name: RELLENO SANITARIO LOS ANGELES<br>
+        <i>Waste disposal: 210493.88 Tons<br>
+        <i>Landfill capacity: 93.48%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d84784f79986badf2d97977ec566223a = L.circle(
+                [3.233678, -76.391045],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 1.4463995}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_d84784f79986badf2d97977ec566223a.bindTooltip(
+                `<div>
+                     <i>Province: CAUCA<br>
+        <i>Municipality: PUERTO TEJADA<br>
+        <i>Landfill name: Celda de Contingencia El Cortijo<br>
+        <i>Waste disposal: 57855.98 Tons<br>
+        <i>Landfill capacity: 3.57%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b0a2fb741b9c0b232a0a182ef074ce97 = L.circle(
+                [9.835667, -75.099735],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.7841855}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_b0a2fb741b9c0b232a0a182ef074ce97.bindTooltip(
+                `<div>
+                     <i>Province: BOLIVAR<br>
+        <i>Municipality: SAN JACINTO<br>
+        <i>Landfill name: RELLENO SANITARIO REGIONAL DEL SAN JACINTO<br>
+        <i>Waste disposal: 31367.42 Tons<br>
+        <i>Landfill capacity: 95.13%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_804b11b92bf26011354ee5c9b609c859 = L.circle(
+                [6.2944, -75.2430244],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.164744}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_804b11b92bf26011354ee5c9b609c859.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: DONMATIAS<br>
+        <i>Landfill name: RELLENO EL PINAR<br>
+        <i>Waste disposal: 6589.76 Tons<br>
+        <i>Landfill capacity: -40.21%<br>
+        <i>Category: BAD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fbcfcd8cb384269cc210084395cbf0e3 = L.circle(
+                [5.3110444, -76.5819929],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.0032645000000000005}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_fbcfcd8cb384269cc210084395cbf0e3.bindTooltip(
+                `<div>
+                     <i>Province: CHOCO<br>
+        <i>Municipality: ALTO BAUDO<br>
+        <i>Landfill name: CAMPO NUEVO<br>
+        <i>Waste disposal: 130.58 Tons<br>
+        <i>Landfill capacity: 91.29%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c9848ed0fd5f251150618e9d72ddaa5b = L.circle(
+                [8.004989, -75.142725],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 1.58487425}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_c9848ed0fd5f251150618e9d72ddaa5b.bindTooltip(
+                `<div>
+                     <i>Province: ANTIOQUIA<br>
+        <i>Municipality: CAUCASIA<br>
+        <i>Landfill name: PARQUE AMBIENTAL CAMPOALEGRE<br>
+        <i>Waste disposal: 63394.97 Tons<br>
+        <i>Landfill capacity: 88.29%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b602d3f71573aa88cfe9e9a8e72fb299 = L.circle(
+                [12.5545383, -81.7266886],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 1.1342415000000001}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_b602d3f71573aa88cfe9e9a8e72fb299.bindTooltip(
+                `<div>
+                     <i>Province: ARCHIPIELAGO DE SAN ANDRES, PROVIDENCIA Y SANTA CATALINA<br>
+        <i>Municipality: SAN ANDRES<br>
+        <i>Landfill name: MAGIC GARDEN<br>
+        <i>Waste disposal: 45369.66 Tons<br>
+        <i>Landfill capacity: 92.44%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_97ddee5e18ef15018d7bb33056619df1 = L.circle(
+                [11.402222, -72.366944],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.3879455}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_97ddee5e18ef15018d7bb33056619df1.bindTooltip(
+                `<div>
+                     <i>Province: LA GUAJIRA<br>
+        <i>Municipality: MAICAO<br>
+        <i>Landfill name: UNION TEMPORAL OPERACION RELLENO SANITARIO REGIONAL NORTE DE<br>
+        <i>Waste disposal: 15517.82 Tons<br>
+        <i>Landfill capacity: 99.26%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_92274607890b5cfc5ae1379a178e9825 = L.circle(
+                [11.402222, -72.366944],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 0.22782024999999997}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+    
+            circle_92274607890b5cfc5ae1379a178e9825.bindTooltip(
+                `<div>
+                     <i>Province: LA GUAJIRA<br>
+        <i>Municipality: MAICAO<br>
+        <i>Landfill name: UTORS S.A.S. E.S.P.<br>
+        <i>Waste disposal: 9112.81 Tons<br>
+        <i>Landfill capacity: 99.57%<br>
+        <i>Category: GOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_6b14cbb700d71302fdfbbce251bec0c7 = {
+                base_layers : {
+                    "cartodbpositron" : tile_layer_669e83bc53c817aace240ee4ceb2bd49,
+                },
+                overlays :  {
+                },
+            };
+            L.control.layers(
+                layer_control_6b14cbb700d71302fdfbbce251bec0c7.base_layers,
+                layer_control_6b14cbb700d71302fdfbbce251bec0c7.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_7c16b8783000eb6647b2faa228340175);
+        
+</script>
